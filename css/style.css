@@ -1205,6 +1205,12 @@ p [style*='max-width'] {
 	display: inline-block;
 }
 
+.brand img {
+	width: 143px;
+}
+
+
+
 /** @section Links */
 a {
 	transition: all 0.3s ease-in-out;
@@ -1858,6 +1864,10 @@ img {
 	.table-custom th {
 		padding-top: 20px;
 		padding-bottom: 20px;
+	}
+
+	.brand img {
+		width: 50px;;
 	}
 }
 
