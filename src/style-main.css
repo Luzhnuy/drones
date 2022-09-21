@@ -750,3 +750,11 @@ figure:hover img {
 		    margin: 0 0px;
 	}
 }
+
+
+@media (max-width: 900px) {
+    .logo_white img{
+        height: 40px;
+    }
+    
+}
