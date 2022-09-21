@@ -1,0 +1,203 @@
+ a.black_btn:visited {
+    color: white!important;
+}
+#euro,
+#us{
+	display:none;
+}
+.methods {
+   margin-top: 160px;
+}
+.methods .h1 {
+   font-weight: 600;
+   font-size: 34px;
+   line-height: 120%;
+   letter-spacing: 0.25px;
+   color: #000000;
+   font-family: 'Lato', sans-serif;
+}
+.methods_info {
+/*    font-family: 'Lato'; */
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 147%;
+   letter-spacing: 0.15px;
+}
+.other_options {
+   background: #FBF8F2;
+   padding: 80px 40px;
+   margin-top: 75px;
+}
+.yellow_btn{
+   text-decoration:none;
+   font-family: 'Lato', sans-serif;
+   margin-right:32px;
+}
+.black_btn {
+   text-decoration:none;
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   padding: 16px;
+   letter-spacing: 1.25px;
+   text-transform: uppercase;
+   background: #000000;
+   color: #FFFFFF;
+}
+
+.yellow_border_btn {
+   border: 1.5px solid #FFE14B;
+   background: transparent;
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 142%;
+   text-align: center;
+   letter-spacing: 0.1px;
+   color: #000000;
+   padding:12px;
+   text-transform: uppercase;
+   text-decoration:none;
+}
+.support_item {
+   padding: 24px 24px 42px;
+   background: #FFFFFF;
+   border: 1px solid #000000;
+   border-radius: 10px;
+   width: 369px;
+   height: 373px;
+}
+
+.swift_transitions h3 {
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 160%;
+   letter-spacing: -0.75px;
+   color: #000000;
+}
+.swift_transition_container {
+   border: 1px solid #F0EDE2;
+   padding: 30px;
+   margin-top:24px;
+   max-width: 670px;
+}
+.border_box {
+   border: 1px solid #F0EDE2;
+   padding: 30px;
+   max-width: 670px;
+}
+.transition_item {
+   margin-bottom:30px;
+}
+.transition_item h5 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 160%;
+   letter-spacing: -0.75px;
+   color: #3A77C7;
+   margin-bottom:25px;
+}
+.beneficiary {
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 19px;
+   letter-spacing: 0.15px;
+   color: #000000;
+}
+.type {
+   margin-left:24px;
+   color: #4F4F4F;
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   letter-spacing: 0.5px;
+}
+.swift_transitions svg {
+   cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 440px)  {
+	.monobank {
+		margin-left:10px;
+	}
+	.swift {
+	margin-right:10px;
+}
+	.yellow_border_btn {
+		margin-bottom:10px;
+	}
+	.yellow_btn {
+    margin-right: 0px;
+}
+.type {
+   margin-left: 10px;
+   font-size: 15px;
+   line-height: 18px;
+}
+.swift_transition_container {
+   padding: 7px;
+}
+	.other_options {
+    padding: 50px 10px;
+    margin-top: 80px;
+}
+	.contact_form_main input.wpcf7-text{
+		width:100%;
+		max-width:100%;
+}
+	.contact_form_main input {
+		max-width:none;
+	}
+	.contact_form_main label:nth-child(even) {
+    margin-right: 23px;
+}
+	.wpcf7-submit {
+		max-width:270px;
+	}
+	.wpcf7-spinner{
+		display:none;
+	}
+	.contact_form_main input[type="submit"] {
+		max-width:300px;
+	}
+}
+
+
+@media screen and (max-width: 393px) {
+	.monobank {
+    margin-top: 9px;
+}
+		.contact_form_main label:nth-child(even) {
+    margin-right: 0px;
+}
+	.cards {
+		display:flex;
+		flex-direction:column;
+	}
+	.cards .black_btn,
+	.cards .yellow_btn{
+text-align:center;
+	}
+}
+@media screen and (max-width: 375px) {
+.swift {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+	.card-links {
+		flex-direction:column;
+	}
+}
