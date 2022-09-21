@@ -147,6 +147,7 @@ section.hero-home .home-hero-blocks .hero-btn {
     width: 100%;
 	z-index:0;
 	object-fit: cover;
+    height: 1000px;
 }
 section.hero-home .pop-up {
     width: 369px;
